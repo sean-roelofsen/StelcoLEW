@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Emissions_Sources",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Coke Ovens", "Contaminan": "1" }, "geometry": { "type": "Point", "coordinates": [ -80.094124893999947, 42.798415209000041, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Industrial Landfill", "Contaminan": "2" }, "geometry": { "type": "Point", "coordinates": [ -80.107954026999948, 42.797914926000033, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Industrial Landfill", "Contaminan": "2" }, "geometry": { "type": "Point", "coordinates": [ -80.11108089399994, 42.806389556000056, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Slag Handling", "Contaminan": "3" }, "geometry": { "type": "Point", "coordinates": [ -80.103446932999987, 42.802545015000078, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Coke Tailings", "Contaminan": "4" }, "geometry": { "type": "Point", "coordinates": [ -80.089738098999987, 42.797616382000058, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Coal Piles", "Contaminan": "5" }, "geometry": { "type": "Point", "coordinates": [ -80.084846002999939, 42.798639306000041, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Sanitary Lagoon", "Contaminan": "6" }, "geometry": { "type": "Point", "coordinates": [ -80.110693265999942, 42.79452985000006, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Blast Furnace", "Contaminan": "7" }, "geometry": { "type": "Point", "coordinates": [ -80.099995179999951, 42.800041037000028, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Effluent Lagoon", "Contaminan": "8" }, "geometry": { "type": "Point", "coordinates": [ -80.094205122999938, 42.792716959000074, 0.0 ] } }
+]
+}
