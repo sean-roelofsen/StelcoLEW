@@ -77,7 +77,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -80.13662073,42.80807227 ]
+       "coordinates":  [ -80.132,42.8082 ]
     },
     "properties": {
     "Name":"Passive 7 - W",
