@@ -30,10 +30,10 @@
             "Name_2": "B - N Option 2",
             "Comments": "Hydro Pole - Wooden - 009649 or D4BB4Y - Sign \"If work on this pole is neccesary Haldimand County Hydro 905-765-5211 - Access to farmers field will be better for access to pole / setting up a ladder - ditch along side of road - SW quadrant is free from obstruction.",
             "ImageURLs": [
-               "https://example.com/image1.jpg",
-               "https://example.com/image2.jpg",
-               "https://example.com/image3.jpg",
-               "https://example.com/image4.jpg"
+               "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/refs/heads/main/images/DJI_0112.jpg",
+               "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/refs/heads/main/images/DJI_0119.jpg",
+               "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/refs/heads/main/images/DJI_0127.jpg",
+               "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/refs/heads/main/images/DJI_0136.jpg"
             ]
          }
       },
