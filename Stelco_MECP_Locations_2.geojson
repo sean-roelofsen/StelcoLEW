@@ -1,0 +1,149 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.1178702, 42.8267281 ]
+         },
+         "properties": {
+            "Name": "Passive 1 - NW",
+            "Name_2": "B - NW Option 4",
+            "Comments": "Hydro Pole - Wooden - 011522 or L4855 - Sign \"If work on this pole is neccesary Haldimand County Hydro 905-765-5211 - Access to pole is good - good distance from road 25 feet +, good safe area to pull over - No obstructions to the E/S/W",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.09904846, 42.83526413 ]
+         },
+         "properties": {
+            "Name": "Passive 2 - N",
+            "Name_2": "B - N Option 2",
+            "Comments": "Hydro Pole - Wooden - 009649 or D4BB4Y - Sign \"If work on this pole is neccesary Haldimand County Hydro 905-765-5211 - Access to farmers field will be better for access to pole / setting up a ladder - ditch along side of road - SW quadrant is free from obstruction.",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.0868633, 42.8226043 ]
+         },
+         "properties": {
+            "Name": "Passive 3 - NE",
+            "Name_2": "C - Option 3",
+            "Comments": "Hydro Pole - Wooden - 011176 or D4BCYF - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good, ditch.",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.08000281, 42.79392164 ]
+         },
+         "properties": {
+            "Name": "Passive 4 - SE",
+            "Name_2": "B - SE Option 3",
+            "Comments": "Hydro Pole - Wooden - 010984 or D3J4FC - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good - Overall pretty open, some sumac that could be cut back - Stelco Fenceline across street - Good access to pull over, parking lot for coveyor belt.",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.08801366, 42.79242652 ]
+         },
+         "properties": {
+            "Name": "Passive 5 - S",
+            "Name_2": "B - S Option 1",
+            "Comments": "Hydro Pole - Wooden - 010735 or D3J3YP - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good - Overall pretty open, pine tree to the west - Stelco Fenceline.",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.11331639, 42.79027948 ]
+         },
+         "properties": {
+            "Name": "Passive 6 - SW",
+            "Name_2": "B - SW Option 2",
+            "Comments": "Hydro Pole - Wooden - 010974 or D378W - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is okay / setting up a ladder from road over the ditch - Overall pretty open -  Across street from Famrers Field .",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.1393, 42.80803 ]
+         },
+         "properties": {
+            "Name": "Passive 7 - W",
+            "Name_2": "B - W Option 3",
+            "Comments": "Mount to AP Fencing @ A (Wind Trubine 414)",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [ -80.1399, 42.8081 ]
+         },
+         "properties": {
+            "Name": "MECP Air Monitoring Station",
+            "Name_2": "Air Monitoring Station (Air Pointer)",
+            "Comments": "Wind Trubine 414",
+            "ImageURLs": [
+               "https://example.com/image1.jpg",
+               "https://example.com/image2.jpg",
+               "https://example.com/image3.jpg",
+               "https://example.com/image4.jpg"
+            ]
+         }
+      }
+   ]
+}
