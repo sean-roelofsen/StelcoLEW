@@ -48,10 +48,11 @@
             "Name_2": "C - Option 3",
             "Comments": "Hydro Pole - Wooden - 011176 or D4BCYF - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good, ditch.",
             "ImageURLs": [
-               "https://example.com/image1.jpg",
-               "https://example.com/image2.jpg",
-               "https://example.com/image3.jpg",
-               "https://example.com/image4.jpg"
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0208.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0213.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0215.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0223.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0225.jpg"
             ]
          }
       },
