@@ -102,10 +102,11 @@
             "Name_2": "B - SW Option 2",
             "Comments": "Hydro Pole - Wooden - 010974 or D378W - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is okay / setting up a ladder from road over the ditch - Overall pretty open -  Across street from Famrers Field .",
             "ImageURLs": [
-               "https://example.com/image1.jpg",
-               "https://example.com/image2.jpg",
-               "https://example.com/image3.jpg",
-               "https://example.com/image4.jpg"
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0158.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0160.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0164.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0168.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0170.jpg"
             ]
          }
       },
