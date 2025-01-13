@@ -139,7 +139,7 @@
          "properties": {
             "Name": "MECP Air Monitoring Station",
             "Name_2": "Air Monitoring Station (Air Pointer)",
-            "Comments": "Wind Trubine 414",
+            "Comments": "Wind Turbine 414",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0086.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0087.jpg",
