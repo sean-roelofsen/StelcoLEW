@@ -123,10 +123,10 @@
             "Name_2": "B - W Option 3",
             "Comments": "Mount to AP Fencing @ A (Wind Trubine 414)",
             "ImageURLs": [
-               "https://example.com/image1.jpg",
-               "https://example.com/image2.jpg",
-               "https://example.com/image3.jpg",
-               "https://example.com/image4.jpg"
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0086.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0087.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0093.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0096.jpg"
             ]
          }
       },
@@ -141,10 +141,12 @@
             "Name_2": "Air Monitoring Station (Air Pointer)",
             "Comments": "Wind Trubine 414",
             "ImageURLs": [
-               "https://example.com/image1.jpg",
-               "https://example.com/image2.jpg",
-               "https://example.com/image3.jpg",
-               "https://example.com/image4.jpg"
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0086.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0087.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0093.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0096.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0101.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images/DJI_0107.jpg"
             ]
          }
       }
