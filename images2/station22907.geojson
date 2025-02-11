@@ -26,10 +26,10 @@
         "url": "",
         "Closed": "",
         "ImageURLs": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg",
-          "https://example.com/image4.jpg"
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0.jpg",
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0139.jpg",
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0141.jpg",
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0143.jpg"
         ]
       }
     }
