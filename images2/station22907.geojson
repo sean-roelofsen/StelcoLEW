@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.081233, 42.808998]
+      },
+      "properties": {
+        "Station": 22907,
+        "Location": "Nanticoke Village (Riverside Dr/Rainham Rd)",
+        "City": "Nanticoke",
+        "DoneBy": "Industry-SEM",
+        "DoneBy_2": "",
+        "HAMN": "No",
+        "Continuous": "SO2, TRS, PM10",
+        "Cotinuous_2": "",
+        "Non-Continuous": "PAH, VOC",
+        "Non-Continuous_2": "",
+        "Meteorology": "W, TEMP, PRECIP",
+        "Easting": 575119.0,
+        "Northing": 4740014.0,
+        "Province": "Ontario",
+        "Country": "Canada",
+        "url": "",
+        "Closed": "",
+        "ImageURLs": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg"
+        ]
+      }
+    }
+  ]
+}
