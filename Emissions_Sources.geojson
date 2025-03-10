@@ -3,7 +3,7 @@
 "name": "Emissions_Sources",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "Name": "Coke Ovens", "Contaminan": "1", "pollutants": ["SO2", "Benzene", "B(a)P", "TSP"] }, "geometry": { "type": "Point", "coordinates": [ -80.094124893999947, 42.798415209000041, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Coke Ovens", "Contaminan": "1", "pollutants": "SO2, Benzene, B(a)P, TSP" }, "geometry": { "type": "Point", "coordinates": [ -80.094124893999947, 42.798415209000041, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Industrial Landfill", "Contaminan": "2", "pollutants": ["TSP", "Odour"] }, "geometry": { "type": "Point", "coordinates": [ -80.107954026999948, 42.797914926000033, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Industrial Landfill", "Contaminan": "2", "pollutants": ["TSP", "Odour"] }, "geometry": { "type": "Point", "coordinates": [ -80.11108089399994, 42.806389556000056, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Slag Handling", "Contaminan": "3", "pollutants": ["TSP"]}, "geometry": { "type": "Point", "coordinates": [ -80.103446932999987, 42.802545015000078, 0.0 ] } },
