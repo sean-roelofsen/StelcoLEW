@@ -1,4 +1,4 @@
-name: Resize & Compress Images (4:3)
+name: Resize & Compress Images (Fix Missing Files)
 
 on:
   push:
@@ -22,31 +22,36 @@ jobs:
       - name: Install Required Dependencies
         run: pip install pillow
 
-      - name: Resize and Compress Images
+      - name: Resize and Compress Images in Both Folders
         run: |
           python - <<EOF
           from PIL import Image
           import os
 
-          image_folder = "images"
+          # Define folders to process
+          image_folders = ["images", "images2"]
           max_width = 3000  # Maintain 4:3 aspect ratio (originals are 4000x3000)
           max_height = 2250 
           quality = 75       # JPEG quality (lower = smaller file)
 
           modified_files = False  # Track if any images were modified
 
-          for filename in os.listdir(image_folder):
-              if filename.lower().endswith(('.jpg', '.jpeg')):  
-                  img_path = os.path.join(image_folder, filename)
-                  img = Image.open(img_path)
+          for folder in image_folders:
+              if not os.path.exists(folder):
+                  continue  # Skip missing folders
 
-                  # Resize while keeping aspect ratio
-                  img.thumbnail((max_width, max_height), Image.LANCZOS)
+              for filename in os.listdir(folder):
+                  if filename.lower().endswith(('.jpg', '.jpeg')):  
+                      img_path = os.path.join(folder, filename)
+                      img = Image.open(img_path)
 
-                  # Overwrite original image with optimized version
-                  img.save(img_path, "JPEG", quality=quality, optimize=True)
-                  print(f"✔ Compressed {filename}")
-                  modified_files = True  # Flag that we modified images
+                      # Resize while keeping aspect ratio
+                      img.thumbnail((max_width, max_height), Image.LANCZOS)
+
+                      # Overwrite original image with optimized version
+                      img.save(img_path, "JPEG", quality=quality, optimize=True)
+                      print(f"✔ Compressed {filename} in {folder}")
+                      modified_files = True  # Flag that we modified images
 
           if not modified_files:
               print("✅ No images needed optimization. Exiting without commit.")
@@ -59,6 +64,12 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add images/*.jpg images/*.jpeg  # Only add image files
-          git commit -m "🔧 Auto-resized & compressed images (4:3)" || echo "No changes to commit"
-          git push
+
+          # Only add files if they exist (prevents 'pathspec did not match any files' error)
+          if ls images/*.jpg 2>/dev/null || ls images/*.jpeg 2>/dev/null || ls images2/*.jpg 2>/dev/null || ls images2/*.jpeg 2>/dev/null; then
+            git add images/*.jpg images/*.jpeg images2/*.jpg images2/*.jpeg 2>/dev/null || true
+            git commit -m "🔧 Auto-resized & compressed images (4:3)" || echo "No changes to commit"
+            git push
+          else
+            echo "✅ No image files to commit. Skipping git push."
+          fi
