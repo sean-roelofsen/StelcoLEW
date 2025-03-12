@@ -26,10 +26,10 @@
         "url": "",
         "Closed": "",
         "ImageURLs": [
-          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0787.jpg",
-          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0791.jpg",
-          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0794.jpg",
-          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW/images2/DJI_0795.jpg"
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images2/DJI_0787.jpg",
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images2/DJI_0791.jpg",
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images2/DJI_0794.jpg",
+          "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images2/DJI_0795.jpg"
         ]
       }
     }
