@@ -1,4 +1,4 @@
-name: Resize & Compress Images (Fix Push Permissions)
+name: Resize & Compress Images (Fix Git Push)
 
 on:
   push:
@@ -12,9 +12,9 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -32,7 +32,7 @@ jobs:
 
           # Define folders to process
           image_folders = ["images", "images2"]
-          max_width = 3000  # Maintain 4:3 aspect ratio (originals are 4000x3000)
+          max_width = 3000  # Resize while keeping 4:3 aspect ratio
           max_height = 2250 
           quality = 75       # JPEG quality (lower = smaller file)
 
@@ -62,18 +62,16 @@ jobs:
           print("✅ All images resized & compressed successfully!")
           EOF
 
-      - name: Commit and Push Optimized Images
+      - name: Force Git to Recognize Image Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add only modified images
-          git add images/*.jpg images/*.jpeg images2/*.jpg images2/*.jpeg 2>/dev/null || true
-
-          # Commit only if there are changes
-          git diff --cached --quiet || git commit -m "🔧 Auto-resized & compressed images (4:3)"
-
-          # ✅ Use GitHub Actions token for authentication
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          # Ensure Git detects changes to binary files (JPEGs)
+          git add -A
+          git commit -m "🔧 Force update: Auto-resized & compressed images" --allow-empty
+          
+          # Force push the images to update them in GitHub
+          git push origin main --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
