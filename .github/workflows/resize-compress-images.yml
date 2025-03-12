@@ -1,4 +1,4 @@
-name: Resize & Compress Images (Fix GitHub Permissions)
+name: Resize & Compress Images (Fix Push Permissions)
 
 on:
   push:
@@ -72,6 +72,8 @@ jobs:
 
           # Commit only if there are changes
           git diff --cached --quiet || git commit -m "🔧 Auto-resized & compressed images (4:3)"
-          
-          # Push changes using GitHub Actions token
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+
+          # ✅ Use GitHub Actions token for authentication
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
