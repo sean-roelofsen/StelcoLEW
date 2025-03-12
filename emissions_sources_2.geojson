@@ -1,0 +1,18 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.0941248937042,42.79841520894516,0]},"properties":{"Name":"Coke Ovens","Contaminan":"1","Pollutants":"SO2, Benzene, TSP, B(a)P","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.10795402721021,42.7979149254136,0]},"properties":{"Name":"Industrial Landfill","Contaminan":"2","Pollutants":"Odour","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.11108089383096,42.80638955578315,0]},"properties":{"Name":"Industrial Landfill","Contaminan":"2","Pollutants":"Odour","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.1034469332914,42.802545014631114,0]},"properties":{"Name":"Slag Handling","Contaminan":"3","Pollutants":"TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.0897380994733,42.797616381707826,0]},"properties":{"Name":"Coke Tailings","Contaminan":"4","Pollutants":"TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.08484600379339,42.798639306106885,0]},"properties":{"Name":"Coal Piles","Contaminan":"5","Pollutants":"TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.11069326629426,42.79452985028239,0]},"properties":{"Name":"Sanitary Lagoon","Contaminan":"6","Pollutants":"Odour","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.09999518016838,42.800041037564846,0]},"properties":{"Name":"Blast Furnace","Contaminan":"7","Pollutants":"SO2, TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.09420512224222,42.79271695881634,0]},"properties":{"Name":"Effluent Lagoon","Contaminan":"8","Pollutants":"Odour","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.09352714483269,42.796436463268726,0]},"properties":{"Name":"Surplus Coke Storage","Contaminan":null,"Pollutants":"TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.08640688678666,42.796179376335694,0]},"properties":{"Name":"Iron Ore Piles","Contaminan":null,"Pollutants":"TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.08938402041923,42.822134243249515,0]},"properties":{"Name":"Transportation & Truck Entry","Contaminan":null,"Pollutants":"Odour, Noise, TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.0995056154065,42.795266605014355,0]},"properties":{"Name":"Blast Furnace Secondary Materials Storage","Contaminan":null,"Pollutants":"TSP","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.10362187390477,42.791820909972486,0]},"properties":{"Name":"Effluent Discharge Point","Contaminan":null,"Pollutants":"Odour","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.09361613374136,42.7993751201138,0]},"properties":{"Name":"By-Products Plant (fugitive sources)","Contaminan":null,"Pollutants":"Benzene","ImageURLs":null,"PanoURL":null}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.09701954672232,42.811458026077986,0]},"properties":{"Name":"Hot-Strip Mill Furnace","Contaminan":null,"Pollutants":"SO2, TSP","ImageURLs":null,"PanoURL":null}}
+]}
