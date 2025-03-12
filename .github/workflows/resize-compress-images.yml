@@ -1,4 +1,4 @@
-name: Resize & Compress Images (Fix Missing Files)
+name: Resize & Compress Images (Fix GitHub Permissions)
 
 on:
   push:
@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -22,7 +24,7 @@ jobs:
       - name: Install Required Dependencies
         run: pip install pillow
 
-      - name: Resize and Compress Images in Both Folders
+      - name: Resize and Compress Images
         run: |
           python - <<EOF
           from PIL import Image
@@ -62,14 +64,14 @@ jobs:
 
       - name: Commit and Push Optimized Images
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Only add files if they exist (prevents 'pathspec did not match any files' error)
-          if ls images/*.jpg 2>/dev/null || ls images/*.jpeg 2>/dev/null || ls images2/*.jpg 2>/dev/null || ls images2/*.jpeg 2>/dev/null; then
-            git add images/*.jpg images/*.jpeg images2/*.jpg images2/*.jpeg 2>/dev/null || true
-            git commit -m "🔧 Auto-resized & compressed images (4:3)" || echo "No changes to commit"
-            git push
-          else
-            echo "✅ No image files to commit. Skipping git push."
-          fi
+          # Add only modified images
+          git add images/*.jpg images/*.jpeg images2/*.jpg images2/*.jpeg 2>/dev/null || true
+
+          # Commit only if there are changes
+          git diff --cached --quiet || git commit -m "🔧 Auto-resized & compressed images (4:3)"
+          
+          # Push changes using GitHub Actions token
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
