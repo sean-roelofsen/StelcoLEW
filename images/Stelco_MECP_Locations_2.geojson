@@ -54,7 +54,8 @@
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0215.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0223.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0225.jpg"
-            ]
+            ],
+         "PanoURL": "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/main/images_pano/p3ne_pano.jpg"
          }
       },
       {
