@@ -10,6 +10,7 @@
          "properties": {
             "Name": "Passive 1 - NW",
             "Name_2": "B - NW Option 4",
+            "Comments": "Hydro Pole, call Haldimand County Hydro 905-765-5211",
             "_Comments": "Hydro Pole - Wooden - 011522 or L4855 - Sign \"If work on this pole is neccesary Haldimand County Hydro 905-765-5211 - Access to pole is good - good distance from road 25 feet +, good safe area to pull over - No obstructions to the E/S/W",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0137.jpg",
@@ -29,6 +30,7 @@
          "properties": {
             "Name": "Passive 2 - N",
             "Name_2": "B - N Option 2",
+            "Comments": "Hydro Pole, call Haldimand County Hydro 905-765-5211",
             "_Comments": "Hydro Pole - Wooden - 009649 or D4BB4Y - Sign \"If work on this pole is neccesary Haldimand County Hydro 905-765-5211 - Access to farmers field will be better for access to pole / setting up a ladder - ditch along side of road - SW quadrant is free from obstruction.",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0112.jpg",
@@ -48,6 +50,7 @@
          "properties": {
             "Name": "Passive 3 - NE",
             "Name_2": "C - Option 3",
+            "Comments": "Hydro Pole, call Haldimand County Hydro 905-765-5211",
             "_Comments": "Hydro Pole - Wooden - 011176 or D4BCYF - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good, ditch.",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0208.jpg",
@@ -68,6 +71,7 @@
          "properties": {
             "Name": "Passive 4 - SE",
             "Name_2": "B - SE Option 3",
+            "Comments": "Hydro Pole, call Haldimand County Hydro 905-765-5211",
             "_Comments": "Hydro Pole - Wooden - 010984 or D3J4FC - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good - Overall pretty open, some sumac that could be cut back - Stelco Fenceline across street - Good access to pull over, parking lot for coveyor belt.",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0195.jpg",
@@ -88,6 +92,7 @@
          "properties": {
             "Name": "Passive 5 - S",
             "Name_2": "B - S Option 1",
+            "Comments": "Hydro Pole, call Haldimand County Hydro 905-765-5211",
             "_Comments": "Hydro Pole - Wooden - 010735 or D3J3YP - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is good - Overall pretty open, pine tree to the west - Stelco Fenceline.",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0183.jpg",
@@ -107,6 +112,7 @@
          "properties": {
             "Name": "Passive 6 - SW",
             "Name_2": "B - SW Option 2",
+            "Comments": "Hydro Pole, call Haldimand County Hydro 905-765-5211",
             "_Comments": "Hydro Pole - Wooden - 010974 or D378W - No Obstruction  - Sign \"If work on this pole is neccesary Haldimand County Hydro  905-765-5211 - Access to pole is okay / setting up a ladder from road over the ditch - Overall pretty open -  Across street from Famrers Field .",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0158.jpg",
@@ -127,7 +133,8 @@
          "properties": {
             "Name": "Passive 7 - W",
             "Name_2": "B - W Option 3",
-            "_Comments": "Mount to AP Fencing @ A (Wind Turbine 414)",
+            "Comments": "Mounted to MECP Air Station Fencing (@ Wind Turbine 414)",
+            "_Comments": "Mounted to MECP Air Station Fencing (@ Wind Turbine 414)",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0086.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0087.jpg",
@@ -146,7 +153,7 @@
          "properties": {
             "Name": "MECP Air Monitoring Station",
             "Name_2": "Air Monitoring Station (Air Pointer)",
-            "_Comments": "Wind Turbine 414",
+            "Comments": "power from Wind Turbine 414",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0086.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0087.jpg",
