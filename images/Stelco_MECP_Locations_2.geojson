@@ -35,7 +35,8 @@
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0119.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0127.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0136.jpg"
-                           ]
+                           ],
+         "PanoURL": "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/main/images_pano/p2n_pano.jpg"
          }
       },
       {
@@ -74,7 +75,8 @@
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0200.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0202.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0205.jpg"
-            ]
+            ],
+         "PanoURL": "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/main/images_pano/p4se_pano.jpg"
          }
       },
       {
@@ -92,7 +94,8 @@
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0186.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0188.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0190.jpg"
-               ]
+               ],
+            "PanoURL": "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/main/images_pano/p5s_pano.jpg"
          }
       },
       {
