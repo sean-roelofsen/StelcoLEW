@@ -175,7 +175,7 @@
          "properties": {
             "Name": "MECP NE Station",
             "Name_2": "Air Monitoring Station (Air Pointer)",
-            "Comments": "power from Wind Turbine 515",
+            "Comments": "power from Wind Turbine 511",
             "ImageURLs": [
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0505.jpg",
                "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0506.jpg"
