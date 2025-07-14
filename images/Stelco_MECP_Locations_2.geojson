@@ -177,13 +177,9 @@
             "Name_2": "Air Monitoring Station (Air Pointer)",
             "Comments": "power from Wind Turbine 515",
             "ImageURLs": [
-               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0086.jpg",
-               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0087.jpg",
-               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0093.jpg",
-               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0096.jpg",
-               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0101.jpg",
-               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0107.jpg"
-            ],
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0505.jpg",
+               "https://cdn.jsdelivr.net/gh/sean-roelofsen/StelcoLEW@latest/images/DJI_0506.jpg"
+                ],
          "PanoURL": "https://raw.githubusercontent.com/sean-roelofsen/StelcoLEW/main/images_pano/NE_pano.jpg?v=4"
 
          }
